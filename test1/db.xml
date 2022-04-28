@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version="4.1" dataversion="20210708" release="8.1|CoreRPG:5">
+	<image>
+		<id-00001>
+			<image type="image">
+				<grid>on</grid>
+				<color>#FF007900</color>
+				<layers>
+					<layer>
+						<name>dnd5_decal.png</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>images/decals/dnd5_decal.png@5E Assets</bitmap>
+						<occluders>
+							<occluder>
+								<id>0</id>
+								<points>-251,100,-252,0,200,-1,199,100,-251,100</points>
+							</occluder>
+						</occluders>
+						<matrix>1,0,0,0,0,1,0,0,0,0,1,0,0,50,0,1</matrix>
+					</layer>
+				</layers>
+			</image>
+		</id-00001>
+	</image>
+	<library>
+		<testmodul static="true">
+			<categoryname type="string">test</categoryname>
+			<name type="string">testmodul</name>
+			<entries>
+				<image>
+					<librarylink type="windowreference">
+						<class>reference_list</class>
+						<recordname>..</recordname>
+					</librarylink>
+					<name type="string">Images</name>
+					<recordtype type="string">image</recordtype>
+				</image>
+			</entries>
+		</testmodul>
+	</library>
+</root>
